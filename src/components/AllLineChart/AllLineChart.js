@@ -1,0 +1,63 @@
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import PreviewDashedLineChart from '../Charts/PreviewDashedLineChart/PreviewDashedLineChart';
+import PreviewLineChart from '../Charts/PreviewLineChart/PreviewLineChart';
+import PreviewTinyLineChart from '../Charts/PreviewTinyLineChart/PreviewTinyLineChart';
+import PreviewVarticleLineChart from '../Charts/PreviewVarticleLineChart/PreviewVarticleLineChart';
+
+const AllLineChart = () => {
+    return (
+        <div>
+            <Container>
+                <br />
+                <h2 className="text-muted border-bottom text-center pb-2">Make Your Customized Line Chart</h2>
+                <br />
+                <Row>
+                    <Col xs={12} md={6} className='p-3'>
+                        <div className='p-2 border'>
+                            <h2 className='text-primary text-center'>Line Chart</h2>
+                            <PreviewLineChart></PreviewLineChart>
+                            <Link to="/CreateSimpleLineChart" style={{ textDecoration: 'none' }}>
+                                <h4 className='btn btn-dark w-100'>Make a Chart Like This</h4>
+                            </Link>
+                        </div>
+                    </Col>
+
+                    <Col xs={12} md={6} className='p-3'>
+                        <div className='p-2 border'>
+                            <h2 className='text-primary text-center'>Tiny Line Chart</h2>
+                            <PreviewTinyLineChart></PreviewTinyLineChart>
+                            <Link to="/CreateTinyLineChart" style={{ textDecoration: 'none' }}>
+                                <h4 className='btn btn-dark w-100'>Make a Chart Like This</h4>
+                            </Link>
+                        </div>
+                    </Col>
+
+                    <Col xs={12} md={6} className='p-3'>
+                        <div className='p-2 border'>
+                            <h2 className='text-primary text-center'>Dashed  Line Chart</h2>
+                            <PreviewDashedLineChart></PreviewDashedLineChart>
+                            <Link to="/CreateDashedLineChart" style={{ textDecoration: 'none' }}>
+                                <h4 className='btn btn-dark w-100'>Make a Chart Like This</h4>
+                            </Link>
+                        </div>
+                    </Col>
+
+                    <Col xs={12} md={6} className='p-3'>
+                        <div className='p-2 border'>
+                            <h2 className='text-primary text-center'>Varticle Line Chart</h2>
+                            <PreviewVarticleLineChart></PreviewVarticleLineChart>
+                            <Link to="/CreateVarticleLineChart" style={{ textDecoration: 'none' }}>
+                                <h4 className='btn btn-dark w-100'>Make a Chart Like This</h4>
+                            </Link>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+            <br />
+        </div>
+    );
+};
+
+export default AllLineChart;
