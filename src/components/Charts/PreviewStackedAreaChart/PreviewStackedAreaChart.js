@@ -49,13 +49,13 @@ const PreviewStackedAreaChart = () => {
                     </YAxis>
                     <Tooltip />
                     <Legend />
-                    <Area type="monotone" dataKey="Beg" stackId="1" stroke="#8884d8" fill="#8884d8">
+                    <Area type="monotone" dataKey="Beg" stackId="1" stroke="#FBCB0A" fill="#FBCB0A">
                         <LabelList dataKey="Watch" position="top" />
                     </Area>
-                    <Area type="monotone" dataKey="Watch" stackId="1" stroke="#82ca9d" fill="#82ca9d">
+                    <Area type="monotone" dataKey="Watch" stackId="1" stroke="#C70A80" fill="#C70A80">
                         <LabelList dataKey="Watch" position="top" />
                     </Area>
-                    <Area type="monotone" dataKey="Belt" stackId="1" stroke="#ffc658" fill="#ffc658">
+                    <Area type="monotone" dataKey="Belt" stackId="1" stroke="#590696" fill="#590696">
                         <LabelList dataKey="Watch" position="top" />
                     </Area>
                 </AreaChart>

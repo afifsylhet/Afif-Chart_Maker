@@ -50,10 +50,10 @@ const PreviewLineChart = () => {
                     </YAxis>
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="Achievement" stroke="#8884d8" >
+                    <Line type="monotone" dataKey="Achievement" stroke="#FBCB0A" >
                         <LabelList dataKey="Achievement" position="top" />
                     </Line>
-                    <Line type="monotone" dataKey="Target" stroke="#82ca9d" >
+                    <Line type="monotone" dataKey="Target" stroke="#C70A80" >
                         <LabelList dataKey="Target" position="top" />
                     </Line>
                 </LineChart>

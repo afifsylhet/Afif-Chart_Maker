@@ -54,11 +54,11 @@ const PreviewStackedBarChart = () => {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="Achievement" fill="#8884d8" stackId="a" style={{ zIndex: '2' }}>
+                    <Bar dataKey="Achievement" fill="#c70a80" stackId="a" style={{ zIndex: '2' }}>
                         <LabelList dataKey="Achievement" position="inside" style={{ zIndex: '1' }} />
                     </Bar>
 
-                    <Bar dataKey="Target" fill="#82ca9d" stackId="a" style={{ zIndex: '2' }}>
+                    <Bar dataKey="Target" fill="#fbcb0a" stackId="a" style={{ zIndex: '2' }}>
                         <LabelList dataKey="Target" position="inside" style={{ zIndex: '1' }} />
                     </Bar>
                 </BarChart>

@@ -49,7 +49,7 @@ const PreviewSimpleAreaChart = () => {
                     </YAxis>
                     <Tooltip />
                     <Legend />
-                    <Area type="monotone" dataKey="Achievement" stroke="#8884d8" fill="#8884d8"  >
+                    <Area type="monotone" dataKey="Achievement" stroke="#8884d8" fill="#FBCB0A"  >
                         <LabelList dataKey="Achievement" position="top" />
                     </Area>
                 </AreaChart>

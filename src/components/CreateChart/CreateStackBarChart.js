@@ -87,24 +87,32 @@ const CreateStackBarChart = () => {
 
 
     return (
-        <div>
+        <div style={{ backgroundColor: '#37E2D5', fontFamily: 'poppins' }}>
             <Container>
                 <br />
-                <h2 className="text-muted border-bottom text-center pb-2">Make Your Customized Stacked Bar Chart</h2>
+                <div className='pb-2 text-center'>
+                    <h2 className="d-inline" style={{ color: '#c70A80' }}>Make Your Customized </h2>
+                    <h2 className="d-inline" style={{ color: '#590696' }}> Stacked Bar Chart</h2>
+                </div>
+                <hr />
                 <br />
                 <Row className='mb-4 g-5'>
                     <Col sm={12} md={12} lg={6}>
-                        <div className='container text-center p-2 rounded'>
-                            <h3 className='text-center text-muted p-2'> Instractions for making this chart..</h3>
+                        <div className='container h-100 text-center pt-2 ps-5 pe-5, pb-5 rounded bg-light shadow-lg' style={{ fontFamily: 'poppins' }}>
+                            <div className='container text-center rounded'>
+                                <h3 className='text-center p-2' style={{ color: '#C70A80' }}> Instractions for making chart</h3>
+                            </div>
+                            <hr />
+                            <iframe src="https://www.loom.com/embed/991ee42d192a41b68b99541eed60e02d" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen title="instractions" style={{ width: '100%', height: '75%' }}>
+                            </iframe>
                         </div>
-                        <iframe src="https://www.loom.com/embed/991ee42d192a41b68b99541eed60e02d" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen title="instractions" style={{ width: '100%', height: '75%' }}>
-                        </iframe>
                     </Col>
 
 
                     <Col sm={12} md={12} lg={6}>
-                        <div className='container text-center p-4 rounded bg-light '>
-                            <h3 className='text-center text-muted p-2'>Setup your customized chart</h3>
+                        <div className='container text-center pt-2 ps-5 pe-5, pb-5 rounded bg-light shadow-lg' style={{ color: '#fbcb0a', fontFamily: 'poppins' }}>
+                            <h3 className='text-center p-2'>Setup your customized chart</h3>
+                            <hr />
                             <form>
                                 <div className="input-group mb-3">
                                     <input type="text" className="form-control rounded-pill" placeholder="Name of Collection (eg: Month Name)" aria-label="Email" aria-describedby="basic-addon1" required onChange={collectionNameRef} />
@@ -135,15 +143,16 @@ const CreateStackBarChart = () => {
                                 </div>
 
 
-                                <input className='btn btn-outline-secondary w-100 rounded-pill p-2' type="reset" value="Reset Field" />
+                                <input className='btn w-100 rounded-pill p-2' type="reset" value="Reset Field" style={{ backgroundColor: '#C70A80', color: 'white', fontWeight: '500' }} />
                             </form>
                         </div>
                     </Col>
 
 
                     <Col sm={12} md={12} lg={6}>
-                        <div className='container text-center p-4 rounded bg-light '>
-                            <h3 className='text-center text-muted p-2'>Please input your data</h3>
+                        <div className='container text-center h-100 pt-2 ps-5 pe-5, pb-5 rounded bg-light shadow-lg' style={{ color: '#C70A80', fontFamily: 'poppins' }}>
+                            <h3 className='text-center p-2' style={{ color: '#FBCB0A' }}>Please input your data</h3>
+                            <hr />
 
                             <form onSubmit={handleInput}>
                                 <div className="input-group mb-3">
@@ -165,17 +174,18 @@ const CreateStackBarChart = () => {
                                     <input type="number" className="form-control rounded-pill" placeholder='Data Field' aria-label="Email" aria-describedby="basic-addon1" required onChange={event => setDistance(event.target.value)} />
                                 </div>
                                 <br />
-                                <button type='submit' className='btn btn-outline-secondary w-100 p-2 rounded-pill'>Submit</button>
+                                <button type='submit' className='btn w-100 p-2 rounded-pill' style={{ backgroundColor: '#C70A80', color: 'white', fontWeight: '500' }}>Submit</button>
                             </form>
                             <br />
                             <form>
-                                <button type='submit' className='btn btn-outline-warning w-100 p-2 rounded-pill'>Reload, Start Again...</button>
+                                <button type='submit' className='btn w-100 p-2 rounded-pill' style={{ backgroundColor: '#FBCB0A', fontWeight: '500' }}>Reload, Start Again...</button>
                             </form>
                         </div>
                     </Col>
 
                     <Col sm={12} md={12} lg={6}>
-                        <div style={{ maxWidth: '650px', }} className='container'>
+                        <div style={{ maxWidth: '650px', }} className='container bg-light p-5'>
+
                             <div id="element" ref={element} >
 
                                 <ResponsiveContainer width={'100%'} height={350} >
@@ -210,11 +220,12 @@ const CreateStackBarChart = () => {
                                 </ResponsiveContainer>
                             </div >
                             <br />
-                            <h4 className="btn btn-primary w-100" onClick={downloadImage}>Download this chart</h4>
+                            <button className="btn w-100 rounded-pill" onClick={downloadImage} style={{ backgroundColor: '#c70A80', fontWeight: '500', color: 'white', fontFamily: 'poppins' }}>Download this chart</button>
                         </div >
                     </Col >
                 </Row >
             </Container >
+            <br />
         </div>
     );
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList, AreaChart, Area, BarChart, Bar } from 'recharts';
+import { XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, LabelList, BarChart, Bar } from 'recharts';
 
 
 const data = [
@@ -38,7 +38,7 @@ const PreviewTinyBarChart = () => {
                     </YAxis>
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="Sale" fill="#8884d8">
+                    <Bar dataKey="Sale" fill="#fbcb0a">
                         <LabelList dataKey="Sale" position="top" />
                     </Bar>
                 </BarChart>

@@ -48,7 +48,7 @@ const PreviewTinyLineChart = () => {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="Target" stroke="#8884d8" strokeWidth={2} >
+                    <Line type="monotone" dataKey="Target" stroke="#FBCB0A" strokeWidth={2} >
                         <LabelList dataKey="Target" position="top" />
 
                     </Line>

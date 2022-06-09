@@ -54,14 +54,14 @@ const PreviewMixBarChart = () => {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="Ring" stackId="a" fill="#8884d8">
+                    <Bar dataKey="Ring" stackId="a" fill="#FBCB0A">
                         <LabelList dataKey="Ring" position="inside" style={{ zIndex: '1' }} />
                     </Bar>
-                    <Bar dataKey="Bat" stackId="a" fill="#82ca9d">
-                        <LabelList dataKey="Bat" position="inside" style={{ zIndex: '1' }} />
+                    <Bar dataKey="Bat" stackId="a" fill="#C70A80">
+                        <LabelList dataKey="Bat" position="inside" style={{ zIndex: '2' }} />
                     </Bar>
-                    <Bar dataKey="Watch" fill="#ffc658" stackId="a">
-                        <LabelList dataKey="Watch" position="inside" style={{ zIndex: '1' }} />
+                    <Bar dataKey="Watch" fill="#590696" stackId="a">
+                        <LabelList dataKey="Watch" position="inside" style={{ zIndex: '3' }} />
                     </Bar>
                 </BarChart>
             </ResponsiveContainer>

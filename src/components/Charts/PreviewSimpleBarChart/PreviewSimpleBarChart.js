@@ -53,11 +53,11 @@ const PreviewSimpleBarChart = () => {
                     <YAxis />
                     <Tooltip />
                     <Legend />
-                    <Bar dataKey="Achievement" fill="#8884d8">
+                    <Bar dataKey="Achievement" fill="#fbcb0a">
                         <LabelList dataKey="Achievement" position="top" />
                     </Bar>
 
-                    <Bar dataKey="Target" fill="#82ca9d">
+                    <Bar dataKey="Target" fill="#c70a80">
                         <LabelList dataKey="Target" position="top" />
                     </Bar>
                 </BarChart>

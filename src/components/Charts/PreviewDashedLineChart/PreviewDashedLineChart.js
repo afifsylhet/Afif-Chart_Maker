@@ -49,10 +49,10 @@ const PreviewDashedLineChart = () => {
                     </YAxis>
                     <Tooltip />
                     <Legend />
-                    <Line type="monotone" dataKey="Achievement" stroke="#8884d8" strokeDasharray="5 5"  >
+                    <Line type="monotone" dataKey="Achievement" stroke="#FBCB0A" strokeDasharray="5 5"  >
                         <LabelList dataKey="Achievement" position="top" />
                     </Line>
-                    <Line type="monotone" dataKey="Target" stroke="#82ca9d" strokeDasharray="5 4 5 2"  >
+                    <Line type="monotone" dataKey="Target" stroke="#C70A80" strokeDasharray="5 4 5 2"  >
                         <LabelList dataKey="Target" position="top" />
                     </Line>
                 </LineChart>

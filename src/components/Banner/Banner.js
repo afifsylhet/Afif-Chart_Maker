@@ -13,69 +13,22 @@ const Banner = () => {
 
     return (
         <div>
-
-            {/* <div>
-                <div className=' p-5 bgurl'>
-                    <h1 className='mb-3 text-white text-center' style={{ fontWidth: '900' }}> Welcome to Afif Chart Maker</h1>
-                    <h1 className='text-white mb-3 text-center' style={{ fontWidth: '700' }}> By using afif-toolkit you can easily make ...</h1>
-
-                    <div className='d-flex justify-content-center'>
-                        <TypeWriterEffect className='text-center'
-                            textStyle={{
-                                fontFamily: 'Red Hat Display',
-                                color: '#FFFFFF',
-                                fontWeight: 800,
-                                fontSize: '2em',
-                            }}
-                            startDelay={1000}
-                            cursorColor="#FFFFFF"
-                            multiText={[
-                                'Simple Line Chart',
-                                'Tiny Line Chart',
-                                'Dashed Line Chart',
-                                'Varticle Line Chart',
-                                'Simple Area Chart',
-                                'Stacked Area Chart',
-                                'Percent Area Chart',
-                                'Simple Bar Chart',
-                                'Tiny Bar Chart',
-                                'Stacked Bar Chart',
-                                'Mixed Bar Chart',
-                                'Two Level Pie Chart',
-                                'Straight Angle Pie Chart',
-                                'Two Simple Pie Chart',
-                                'Pie Chart with Customize Level'
-
-                            ]}
-                            multiTextDelay={1000}
-                            typeSpeed={40}
-                        />
-                    </div>
-                </div>
-            </div> */}
-
-
-
-
-
-
-
             <Container>
                 <br />
                 <Row className='g-5'>
                     <Col sm={12} md={12} lg={6}>
                         <div>
                             <br />
-                            <h2 className="text-success">BACKGROUND OF </h2>
-                            <h2 className="text-primary">AFIF CHART MAKER ... </h2>
+                            <h2 style={{ color: '#c70a80', fontFamily: 'poppins' }}>BACKGROUND OF </h2>
+                            <h2 style={{ color: '#FBCB0A', fontFamily: 'poppins' }}>AFIF CHART MAKER ... </h2>
                             <br />
-                            <p className="mb-2 fs-5 fw-lighter "> I worked as a Management Information System Officer and data visualization was one of my regular work. That's why I had need to make lots of charts and graphs.
+                            <p className="mb-3 fs-5 "> I worked as a Management Information System Officer and data visualization was one of my regular work. That's why I had need to make lots of charts and graphs.
                             </p>
 
-                            <p className="mb-2 fs-5 fw-lighter ">
+                            <p className="mb-3 fs-5 ">
                                 But there is a problem faced by like I have created a chart by using MS Excel and copy the chart in to MS Power Point then the chart looks fine but when I change the Excel data my PowerPoint chart is changed and also it has default background-color. That's why sometimes my  PowerPoint looks ugly because of the chart's fixed background color.
                             </p>
-                            <p className="mb-2 fs-5 fw-lighter ">
+                            <p className="mb-3 fs-5 ">
                                 To overcome the above circumstance I decided to make a custom chart maker. And eventually, I make this chart maker.
                             </p>
                         </div >

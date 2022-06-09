@@ -39,7 +39,7 @@ const PreviewTinyAreaChart = () => {
                     </YAxis>
                     <Tooltip />
                     <Legend />
-                    <Area type="monotone" dataKey="Sale" stroke="#ffc658" fill="#ffc658"  >
+                    <Area type="monotone" dataKey="Sale" stroke="#C70A80" fill="#C70A80"  >
                         <LabelList dataKey="Sale" position="top" />
                     </Area>
                 </AreaChart>
