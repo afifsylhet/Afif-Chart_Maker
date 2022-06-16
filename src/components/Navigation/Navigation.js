@@ -17,17 +17,17 @@ const Navigation = () => {
                             navbarScroll
                         >
                             <Link to='/home' style={{ textDecoration: 'none' }}>
-                                <Nav.Link href="#action1" style={{ fontWeight: '500', fontSize: '18px', fontFamily: 'poppins', color: 'white' }}>Home</Nav.Link>
+                                <Nav.Link href="#action1" style={{ fontWeight: '500', fontFamily: 'poppins', color: 'white' }}>Home</Nav.Link>
                             </Link>
 
                             <Link to='/lineChart' style={{ textDecoration: 'none' }}>
-                                <Nav.Link href="#action1" style={{ fontWeight: '500', fontSize: '18px', fontFamily: 'poppins', color: 'white' }}>Line Chart</Nav.Link>
+                                <Nav.Link href="#action1" style={{ fontWeight: '500', fontFamily: 'poppins', color: 'white' }}>Line Chart</Nav.Link>
                             </Link>
                             <Link to='/areaChart' style={{ textDecoration: 'none' }}>
-                                <Nav.Link href="#action1" style={{ fontWeight: '500', fontSize: '18px', fontFamily: 'poppins', color: 'white' }}>Area Chart</Nav.Link>
+                                <Nav.Link href="#action1" style={{ fontWeight: '500', fontFamily: 'poppins', color: 'white' }}>Area Chart</Nav.Link>
                             </Link>
                             <Link to='/barChart' style={{ textDecoration: 'none' }}>
-                                <Nav.Link href="#action1" style={{ fontWeight: '500', fontSize: '18px', fontFamily: 'poppins', color: 'white' }}>Bar Chart</Nav.Link>
+                                <Nav.Link href="#action1" style={{ fontWeight: '500', fontFamily: 'poppins', color: 'white' }}>Bar Chart</Nav.Link>
                             </Link>
                         </Nav>
                     </Navbar.Collapse>
